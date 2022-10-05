@@ -1,0 +1,2 @@
+apple is $0.50
+banana is $.0.80

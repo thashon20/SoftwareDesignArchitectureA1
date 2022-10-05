@@ -8,7 +8,7 @@ public class GroceryProductFactory {
     // should create object here and later be defined and set in subclass 
     // subclass should be able to redefine and instantiate in subclass 
 
-    public static void main(String[] args) {
+   /**  public static void main(String[] args) {
         try (Scanner input = new Scanner(System.in)) {
             System.out.print("Enter grocery item ( 1= apple, 2=banana): ");
             int s = input.nextInt();
@@ -23,6 +23,7 @@ public class GroceryProductFactory {
             }
         }
     }
+    */
 // THIS IS A TEST COMMIT 
 
 
