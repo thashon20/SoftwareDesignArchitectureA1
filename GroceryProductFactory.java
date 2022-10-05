@@ -29,17 +29,17 @@ public class GroceryProductFactory {
 public void FactoryMethod (int s ){
 // get value of number to represent which grocery product 
 // go into class to get price from database related to which product 
-// then output price of apple
+// then output price of grocery product selected 
 // will be used to get price based on info in data file 
 // should redefine object and instantiate here to get price 
   if (s == 1 ) {
     AppleFactory grocery1 =  new AppleFactory(); //creates new factory object for apple 
-    grocery1.getPrice(s); // will display cost of apple using get price method
+    grocery1.getPrice(); // will display cost of apple using get price method
 
 }
 else if (s == 2 ) {
     BananaFactory grocery2 =  new BananaFactory(); //creates new factory object for banana 
-    grocery2.getPrice(s); // will display cost of apple using get price method
+    grocery2.getPrice(); // will display cost of apple using get price method
 
 }
 
