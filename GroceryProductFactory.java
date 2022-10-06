@@ -1,16 +1,44 @@
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class GroceryProductFactory extends FactoryProduction  {
+public class GroceryProductFactory   {
     public static void main (String Args[]) throws FileNotFoundException{
 
     FactoryProduction product1 = new FactoryProduction();
     FactoryProduction product2 = new FactoryProduction();
+   
+    try (Scanner input = new Scanner(System.in)) {       
+    int selection = 0;
+    int selection2 = 0;
 
-    product1.getProductItem(); // ask user what kind of item factory they want 
-    product2.getProductItem();
+        System.out.print("Enter grocery item ( 1= apple, 2=banana): ");
+        if (input.hasNextInt()) {
 
+   selection = input.nextInt();
+}
+
+    product1.getProductItem(selection); // ask user what kind of item factory they want 
+   // input.close();
+    
+
+
+    
+        
+
+        System.out.print("Enter grocery item ( 1= apple, 2=banana): ");
+       
+
+        if (input.hasNextInt()) {
+
+            selection2 = input.nextInt();
+         }
+         
+
+    
+    product2.getProductItem(selection2); // ask user what kind of item factory they want 
+   // input2.close();
     }
+}
 
     // select value betweeen 1 and 2
     // 1 = apples 2= bananas
@@ -38,23 +66,12 @@ public class GroceryProductFactory extends FactoryProduction  {
 // THIS IS A TEST COMMIT 
 
 
-public void FactoryMethod (int s ){
 // get value of number to represent which grocery product 
 // go into class to get price from database related to which product 
 // then output price of grocery product selected 
 // will be used to get price based on info in data file 
 // should redefine object and instantiate here to get price 
-  if (s == 1 ) {
-    AppleFactory grocery1 =  new AppleFactory(); //creates new factory object for apple 
-    grocery1.getPrice(); // will display cost of apple using get price method
+ 
 
 }
-else if (s == 2 ) {
-    BananaFactory grocery2 =  new BananaFactory(); //creates new factory object for banana 
-    grocery2.getPrice(); // will display cost of apple using get price method
-
-}
-
-
-}}
 
