@@ -1,8 +1,10 @@
 # SoftwareDesignArchitectureA1
 
 Welcome to our Software Design and Architecture Assignment 1
+
 Group 24 : Thashon Srikantharajah-100625757
            Faizan Mohammed-100707731
+           Mohammed Fawal- 
            
 
 Please run our code with the driver class being GroceryProductFactory 
