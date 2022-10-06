@@ -1,6 +1,17 @@
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class GroceryProductFactory {
+public class GroceryProductFactory extends FactoryProduction  {
+    public static void main (String Args[]) throws FileNotFoundException{
+
+    FactoryProduction product1 = new FactoryProduction();
+    FactoryProduction product2 = new FactoryProduction();
+
+    product1.getProductItem(); // ask user what kind of item factory they want 
+    product2.getProductItem();
+
+    }
+
     // select value betweeen 1 and 2
     // 1 = apples 2= bananas
     // this class used to make different product type factories
