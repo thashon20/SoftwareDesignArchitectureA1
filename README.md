@@ -1,8 +1,13 @@
 # SoftwareDesignArchitectureA1
 
 Welcome to our Software Design and Architecture Assignment 1
+Group 24 : Thashon Srikantharajah-100625757
+           Faizan Mohammed-100707731
+           
 
-This file will explain how we went about reaching our deliverables 
+Please run our code with the driver class being GroceryProductFactory 
+
+This file will explain how we went about reaching our deliverables:  
 
 Our Deliverables require to make a Abstract Factory that will create a grocery item object 
 This Object would be created and then taken into a Factory Method which would then redefine that object
@@ -15,3 +20,7 @@ If any other integer number was entered it will output that this is an invalid f
 
 Please take a look at the code and the comments as well and feel free to leave any comments and feedback would be greatly appreciated! 
 Thank you for visiting our Assignment Repository. 
+
+
+Here is our UML File : 
+![image](https://user-images.githubusercontent.com/70338373/194399888-2b8bf571-4aa3-4e7f-bb3e-982ed9203eeb.png)
