@@ -26,3 +26,8 @@ Thank you for visiting our Assignment Repository.
 
 Here is our UML File : 
 ![image](https://user-images.githubusercontent.com/70338373/194399888-2b8bf571-4aa3-4e7f-bb3e-982ed9203eeb.png)
+
+Here is our Driver Class GroceryProductFactory output with different test integer inputs: 
+
+![image](https://user-images.githubusercontent.com/70338373/194415081-819ab506-5e17-4327-871f-e8b7010871c0.png)
+![image](https://user-images.githubusercontent.com/70338373/194415114-005c490b-c8bb-42a2-a62e-194e30dddec2.png)
